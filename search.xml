@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Dialogue System</title>
+      <link href="/2020/02/09/Dialogue-System/"/>
+      <url>/2020/02/09/Dialogue-System/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> dialogue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Machine Learning Overview</title>
+      <link href="/2019/06/09/Machine-Learning-Overview/"/>
+      <url>/2019/06/09/Machine-Learning-Overview/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-Machine-Learning-definition"><a href="#1-Machine-Learning-definition" class="headerlink" title="1. Machine Learning definition"></a>1. Machine Learning definition</h2><p>Arthur Samuel (1959). Machine Learning: Field of study that gives computers the ability to learn without being explicitly programmed. </p><p>Tom Mitchell (1998) Well-posed Learning Problem: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.</p><div class="table-container"><table><thead><tr><th style="text-align:center">Model</th><th style="text-align:center"></th><th style="text-align:center">Method</th></tr></thead><tbody><tr><td style="text-align:center">Supervised Learning</td><td style="text-align:center">Classification  <br>  Regression</td><td style="text-align:center">-</td></tr><tr><td style="text-align:center">Unsupervised Learning</td><td style="text-align:center">Clustering</td><td style="text-align:center">-</td></tr></tbody></table></div><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1] <a href="https://study.163.com/course/courseLearn.htm?courseId=1004570029#/learn/video?lessonId=1049052745&amp;courseId=1004570029" target="_blank" rel="noopener">Machine Learning Course of Andrew-Ng</a><br>[2] <a href="https://study.163.com/course/courseMain.htm?courseId=1003842018&amp;_trace_c_p_k2_=86d239c5492c41dbb0d290e57db3a39e" target="_blank" rel="noopener">Hinton机器学习与神经网络</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> machine learning </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Divide and Conquer</title>
+      <link href="/2019/01/10/Divide-and-Conquer/"/>
+      <url>/2019/01/10/Divide-and-Conquer/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> algorithm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Performance Measure of Algorithms</title>
+      <link href="/2019/01/01/Performance-Measure-of-Algorithms/"/>
+      <url>/2019/01/01/Performance-Measure-of-Algorithms/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> math </tag>
+            
+            <tag> algorithm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linear Algebra</title>
+      <link href="/2018/10/09/Linear-Algebra/"/>
+      <url>/2018/10/09/Linear-Algebra/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Probability Theory</title>
+      <link href="/2018/10/01/Probability-Theory/"/>
+      <url>/2018/10/01/Probability-Theory/</url>
+      
+        <content type="html"><![CDATA[<p>设$A$,$B$为两个事件，且P(A)&gt;0,称</p><script type="math/tex; mode=display">\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}</script><p>为事件</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

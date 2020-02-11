@@ -1102,7 +1102,7 @@ pre .javascript .function {
 }
 .sidebar-inner {
   color: #999;
-  padding: 18px 10px;
+  padding: 16px 10px;
   text-align: center;
 }
 .cc-license {
@@ -1160,7 +1160,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6071c4;
+  background: #d996b3;
   border-radius: 50%;
   content: ' ';
   display: inline-block;

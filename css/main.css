@@ -1,17 +1,3 @@
-@charset "UTF-8";
- 
-@font-face {
-  font-family: "Noto_Serif_SC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Black.otf") format("otf"),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf") format("otf"),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-ExtraLight.otf") format("otf"),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-Light.otf") format("otf"),
-	   url("../fonts/Noto_Serif_SC/NotoSerifSC-Medium.otf") format("otf"),
-	   url("../fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf") format("otf"),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-SemiBold.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-}
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -172,7 +158,7 @@ body {
   background: #eee;
   color: #555;
   font-family: 'Noto Serif SC', "Noto Serif SC", sans-serif;
-  font-size: 1em;
+  font-size: 0.875em;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -1174,7 +1160,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #619001;
+  background: #b3abff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2716,14 +2702,4 @@ mjx-container + br {
 }
 .post-body {
   color: #333;
-}
-#header {
-  font-family: Noto_Serif_SC;
-  width: 100%;
-}
-#header a {
-  color: #000;
-}
-#header a:hover {
-  color: #b0a0aa;
 }

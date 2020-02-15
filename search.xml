@@ -108,8 +108,13 @@
 <h2 id="5-参数估计之点估计"><a href="#5-参数估计之点估计" class="headerlink" title="5. 参数估计之点估计"></a>5. 参数估计之点估计</h2><p>在研究总体时，经常会面对这样的问题：总体的分布已知，但分布中有未知参数，而为了研究总体，需要知道这些参数．研究如何用样本所提供的信息来估计未知参数（也说未知参数的真值），即是参数估计问题．参数估计有两种基本形式：点估计和区间估计.</p>
 <p>利用样本统计量及其观测值，给出总体$X$的分布中(一个或多个)未知参数的估计即为点估计． </p>
 <p><img src="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg" alt="公式背景图"></p>
+<p><a href="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg =200x" target="_blank" rel="noopener">公式背景图</a></p>
+<div align=center>
+![公式背景图](https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg =200x)
+</div>
+
 <h3 id="5-1-矩估计法"><a href="#5-1-矩估计法" class="headerlink" title="5.1 矩估计法"></a>5.1 矩估计法</h3><p>事实一：许多分布的原点矩一般都是分布中参数的函数． </p>
-<p>事实二：辛钦大数定理指出，若总体$X$的$k$阶原点矩$E(X^k)(k=1,2,…)$存在，那么$X$的$k$阶原点矩依概率收敛于$E(X^k)$.这说明<font color="#FF0000">样本$k$阶原点矩</font>能比较好地估计<font color="#FF0000">总体$X$的$k$阶原点矩</font>． </p>
+<p>事实二：辛钦大数定理指出，若总体$X$的$k$阶原点矩$E(X^k)(k=1,2,…)$存在，那么$X$的$k$阶原点矩依概率收敛于$E(X^k)$.这说明<font color="#FF0000">样本的$k$阶原点矩</font>能比较好地估计<font color="#FF0000">总体$X$的$k$阶原点矩</font>． </p>
 <h3 id="5-2-最大似然估计法"><a href="#5-2-最大似然估计法" class="headerlink" title="5.2 最大似然估计法"></a>5.2 最大似然估计法</h3><h3 id="5-3-点估计量的评价准则"><a href="#5-3-点估计量的评价准则" class="headerlink" title="5.3 点估计量的评价准则"></a>5.3 点估计量的评价准则</h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1] 张薇. 2010. 概率论与数理统计. 北京：科学出版社</p>
 ]]></content>
       <tags>

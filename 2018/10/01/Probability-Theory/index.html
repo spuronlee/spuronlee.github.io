@@ -28,8 +28,9 @@
 <meta property="og:description" content="概率论基础知识。">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001%20gailvlun1.jpg">
+<meta property="og:image" content="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg">
 <meta property="article:published_time" content="2018-10-01T09:07:50.000Z">
-<meta property="article:modified_time" content="2020-02-14T13:41:12.472Z">
+<meta property="article:modified_time" content="2020-02-15T10:06:35.998Z">
 <meta property="article:author" content="大耳朵图图">
 <meta property="article:tag" content="math">
 <meta name="twitter:card" content="summary">
@@ -212,7 +213,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-02-14 21:41:12" itemprop="dateModified" datetime="2020-02-14T21:41:12+08:00">2020-02-14</time>
+                <time title="Modified: 2020-02-15 18:06:35" itemprop="dateModified" datetime="2020-02-15T18:06:35+08:00">2020-02-15</time>
               </span>
 
           
@@ -246,10 +247,22 @@
 <script type="math/tex; mode=display">P(A)=P(AB_{1})+P(AB_{2})+...+P(AB_{n})</script><script type="math/tex; mode=display">P(A)=P(B_{1})P(A|B_{1})+P(B_{2})P(A|B_{2})+...+P(B_{n})P(A|B_{2})</script><div class="note success">
             <p>全概率公式的含义是：设划分中的事件$B_{1},B_{2},…,B_{n}$是事件$A$发生的全部<strong>原因</strong>，那么每个<strong>原因</strong>发生的概率与该<strong>原因</strong>导致$A$发生的概率乘积的和即为$A$发生的概率。</p>
           </div>
-<h2 id="3-贝叶斯公式"><a href="#3-贝叶斯公式" class="headerlink" title="3.贝叶斯公式"></a>3.贝叶斯公式</h2><h3 id="3-1-贝叶斯公式"><a href="#3-1-贝叶斯公式" class="headerlink" title="3.1 贝叶斯公式"></a>3.1 贝叶斯公式</h3><p>设试验$E$的样本空间为$\Omega$，$A$为$E$的事件，$B_{1},B_{2},…,B_{n}$为$\Omega$的一个划分，且$P(A)&gt;0, P(B_{i})&gt;0(i=1,2,…,n)$,则有</p>
+<h2 id="3-贝叶斯公式"><a href="#3-贝叶斯公式" class="headerlink" title="3.贝叶斯公式"></a>3.贝叶斯公式</h2><h3 id="3-1-贝叶斯公式"><a href="#3-1-贝叶斯公式" class="headerlink" title="3.1 贝叶斯公式"></a>3.1 贝叶斯公式</h3><p>设试验$E$的样本空间为$\Omega$，$A$为$E$的事件，$B_{1},B_{2},…,B_{n}$为$\Omega$的一个划分，且$P(A)&gt;0$, $P(B_{i})&gt;0(i=1,2,…,n)$,则有</p>
 <script type="math/tex; mode=display">P(B_{i}|A)=\frac{P(B_{i})P(A|B_{i})}{P(A)},  i=1,2,…,n</script><script type="math/tex; mode=display">P(B_{i}|A)=\frac{P(B_{i})P(A|B_{i})}{\sum_{j=1}^n P(B_{j})P(A|B_{j})},  i=1,2,…,n</script><p>若取$n=2$，那么</p>
 <script type="math/tex; mode=display">P(A)=P(AB)+P(A\overline{B})</script><script type="math/tex; mode=display">P(A)=P(B)P(A|B)+P(\overline{B})P(A|\overline{B})</script><script type="math/tex; mode=display">P(B|A)=\frac{P(B)P(A|B)}{P(A)}=\frac{P(B)P(A|B)}{P(B)P(A|B)+P(\overline{B})P(A|\overline{B})}</script><script type="math/tex; mode=display">P(\overline{B}|A)=\frac{P(\overline{B})P(A|\overline{B})}{P(A)}=\frac{P(B)P(A|B)}{P(B)P(A|B)+P(\overline{B})P(A|\overline{B})}</script><h3 id="3-2-先验概率与后验概率"><a href="#3-2-先验概率与后验概率" class="headerlink" title="3.2 先验概率与后验概率"></a>3.2 先验概率与后验概率</h3><p>假定$B_{1},B_{2},…,B_{n}$是某个过程所有可能的前提条件，则$P(B_{i})(i=1,2,…,n)$是人们事先对各个前提条件出现的可能性大小的估计，称为<font color="#FF0000">先验概率</font>。如果这个过程得到了一个结果，那么贝叶斯公式就为我们提供了根据A的出现评价各个前提条件作用的方法，$P(B_{i}|A)(i=1,2,…,n)$就是$B_{i}$对$A$的出现发挥作用的可能性，称为<font color="#FF0000">后验概率</font>。</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1] 张薇. 2010. 概率论与数理统计. 北京：科学出版社</p>
+<h2 id="4-事件的独立性"><a href="#4-事件的独立性" class="headerlink" title="4. 事件的独立性"></a>4. 事件的独立性</h2><h3 id="4-1-事件的独立性"><a href="#4-1-事件的独立性" class="headerlink" title="4.1 事件的独立性"></a>4.1 事件的独立性</h3><p>$A, B$是两个独立事件，如果满足$P(AB)=P(A)P(B)$，则称$A, B$互相独立。</p>
+<p>若$A, B$是两个独立事件，则称$A$与$\overline{B}$、$\overline{A}$与$B$、$\overline{A}$与$\overline{B}$也互相独立。</p>
+<div class="note default">
+            <p>互斥事件：$A \cap B = \varnothing$</p><p>对立事件（互逆事件）：$A \cupA B = \Omega，A \cap B = \varnothing$</p><p>独立事件：$P(AB)=P(A)P(B)$</p>
+          </div>
+<h3 id="4-2-伯努利-Bernoulli-概型"><a href="#4-2-伯努利-Bernoulli-概型" class="headerlink" title="4.2 伯努利(Bernoulli)概型"></a>4.2 伯努利(Bernoulli)概型</h3><p>在许多问题中，我们感兴趣的只是试验中某个事件是否发生．这种只关心某个事件是否发生的试验称为伯努利(Bernoulli)试验，可表示为$P(A)=p,P(overline{A})=1-P(0&lt;P&lt;1)$，称为伯努利概型．一个伯努利试验独立地做$n(n≥2)$次，$n$个试验合在一起称为$n$重伯努利试验．</p>
+<p>“一个伯努利试验独立地做$n$次”的含义是，每次试验的$P(A)=p$保持不变，且各次试验相互独立．</p>
+<h2 id="5-参数估计之点估计"><a href="#5-参数估计之点估计" class="headerlink" title="5. 参数估计之点估计"></a>5. 参数估计之点估计</h2><p>在研究总体时，经常会面对这样的问题：总体的分布已知，但分布中有未知参数，而为了研究总体，需要知道这些参数．研究如何用样本所提供的信息来估计未知参数（也说未知参数的真值），即是参数估计问题．参数估计有两种基本形式：点估计和区间估计.</p>
+<p>利用样本统计量及其观测值，给出总体$X$的分布中(一个或多个)未知参数的估计即为点估计． </p>
+<p><img src="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg" alt="公式背景图"></p>
+<h3 id="5-1-矩估计法"><a href="#5-1-矩估计法" class="headerlink" title="5.1 矩估计法"></a>5.1 矩估计法</h3><p>事实一：许多分布的原点矩一般都是分布中参数的函数． </p>
+<p>事实二：辛钦大数定理指出，若总体$X$的$k$阶原点矩$E(X^k)(k=1,2,…)$存在，那么$X$的$k$阶原点矩依概率收敛于$E(X^k)$.这说明<font color="#FF0000">样本$k$阶原点矩</font>能比较好地估计<font color="#FF0000">总体$X$的$k$阶原点矩</font>． </p>
+<h3 id="5-2-最大似然估计法"><a href="#5-2-最大似然估计法" class="headerlink" title="5.2 最大似然估计法"></a>5.2 最大似然估计法</h3><h3 id="5-3-点估计量的评价准则"><a href="#5-3-点估计量的评价准则" class="headerlink" title="5.3 点估计量的评价准则"></a>5.3 点估计量的评价准则</h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1] 张薇. 2010. 概率论与数理统计. 北京：科学出版社</p>
 
     </div>
 
@@ -332,7 +345,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-条件概率"><span class="nav-text">1.条件概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-全概率公式"><span class="nav-text">2.全概率公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-事件的划分与完备事件组"><span class="nav-text">2.1 事件的划分与完备事件组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-全概率公式"><span class="nav-text">2.2 全概率公式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-贝叶斯公式"><span class="nav-text">3.贝叶斯公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-贝叶斯公式"><span class="nav-text">3.1 贝叶斯公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-先验概率与后验概率"><span class="nav-text">3.2 先验概率与后验概率</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-条件概率"><span class="nav-text">1.条件概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-全概率公式"><span class="nav-text">2.全概率公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-事件的划分与完备事件组"><span class="nav-text">2.1 事件的划分与完备事件组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-全概率公式"><span class="nav-text">2.2 全概率公式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-贝叶斯公式"><span class="nav-text">3.贝叶斯公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-贝叶斯公式"><span class="nav-text">3.1 贝叶斯公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-先验概率与后验概率"><span class="nav-text">3.2 先验概率与后验概率</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-事件的独立性"><span class="nav-text">4. 事件的独立性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-事件的独立性"><span class="nav-text">4.1 事件的独立性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-伯努利-Bernoulli-概型"><span class="nav-text">4.2 伯努利(Bernoulli)概型</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-参数估计之点估计"><span class="nav-text">5. 参数估计之点估计</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-矩估计法"><span class="nav-text">5.1 矩估计法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-最大似然估计法"><span class="nav-text">5.2 最大似然估计法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-点估计量的评价准则"><span class="nav-text">5.3 点估计量的评价准则</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

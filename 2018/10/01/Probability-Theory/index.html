@@ -30,7 +30,7 @@
 <meta property="og:image" content="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001%20gailvlun1.jpg">
 <meta property="og:image" content="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg">
 <meta property="article:published_time" content="2018-10-01T09:07:50.000Z">
-<meta property="article:modified_time" content="2020-02-15T10:53:23.223Z">
+<meta property="article:modified_time" content="2020-02-15T12:17:40.992Z">
 <meta property="article:author" content="大耳朵图图">
 <meta property="article:tag" content="math">
 <meta name="twitter:card" content="summary">
@@ -213,7 +213,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-02-15 18:53:23" itemprop="dateModified" datetime="2020-02-15T18:53:23+08:00">2020-02-15</time>
+                <time title="Modified: 2020-02-15 20:17:40" itemprop="dateModified" datetime="2020-02-15T20:17:40+08:00">2020-02-15</time>
               </span>
 
           
@@ -265,7 +265,26 @@
 
 <h3 id="5-1-矩估计法"><a href="#5-1-矩估计法" class="headerlink" title="5.1 矩估计法"></a>5.1 矩估计法</h3><p>事实一：许多分布的原点矩一般都是分布中参数的函数． </p>
 <p>事实二：辛钦大数定理指出，若总体$X$的$k$阶原点矩$E(X^k)(k=1,2,…)$存在，那么$X$的$k$阶原点矩依概率收敛于$E(X^k)$.这说明<font color="#FF0000">样本的$k$阶原点矩</font>能比较好地估计<font color="#FF0000">总体$X$的$k$阶原点矩</font>． </p>
-<h3 id="5-2-最大似然估计法"><a href="#5-2-最大似然估计法" class="headerlink" title="5.2 最大似然估计法"></a>5.2 最大似然估计法</h3><h3 id="5-3-点估计量的评价准则"><a href="#5-3-点估计量的评价准则" class="headerlink" title="5.3 点估计量的评价准则"></a>5.3 点估计量的评价准则</h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1] 张薇. 2010. 概率论与数理统计. 北京：科学出版社</p>
+<h3 id="5-2-最大似然估计法"><a href="#5-2-最大似然估计法" class="headerlink" title="5.2 最大似然估计法"></a>5.2 最大似然估计法</h3><p>矩估计法可以不涉及总体的分布类型，但分布类型其实是很有用的信息．最大似然估计法是在总体的分布类型为已知的前提下，利用分布类型来构造未知参数点估计的一种方法. </p>
+<div class="note default">
+            <p>先来看一个例子:设某一事件$A$在一次试验中发生的概率为$p$，而且事件$A$在连续两次的独立试验中都发生了.假如$p$只可以取$0.6$与$0.9$中的一个，人们则通常会认为$p$应该取$0.9$．这是因为基于这样一个简单又公认的事实：$0.6^2 &lt; 0.9^2$． </p>
+          </div>
+<p>这个例子所体现的正是最大似然估计方法的基本思想，而这个思想基于<strong>小概率原理</strong>： </p>
+<font color="#FF0000">
+(1)概率很小的事件在一次试验中几乎是不出现的；   
+
+(2)概率很小的事件在次数很多的重复试验中几乎是一定会出现的．  
+</font>
+
+
+
+<p>点估计量的评价准则:</p>
+<ol>
+<li>无偏性</li>
+<li>有效性</li>
+<li>一致性</li>
+</ol>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1] 张薇. 2010. 概率论与数理统计. 北京：科学出版社</p>
 
     </div>
 
@@ -348,7 +367,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-条件概率"><span class="nav-text">1.条件概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-全概率公式"><span class="nav-text">2.全概率公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-事件的划分与完备事件组"><span class="nav-text">2.1 事件的划分与完备事件组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-全概率公式"><span class="nav-text">2.2 全概率公式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-贝叶斯公式"><span class="nav-text">3.贝叶斯公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-贝叶斯公式"><span class="nav-text">3.1 贝叶斯公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-先验概率与后验概率"><span class="nav-text">3.2 先验概率与后验概率</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-事件的独立性"><span class="nav-text">4. 事件的独立性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-事件的独立性"><span class="nav-text">4.1 事件的独立性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-伯努利-Bernoulli-概型"><span class="nav-text">4.2 伯努利(Bernoulli)概型</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-参数估计之点估计"><span class="nav-text">5. 参数估计之点估计</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-矩估计法"><span class="nav-text">5.1 矩估计法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-最大似然估计法"><span class="nav-text">5.2 最大似然估计法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-点估计量的评价准则"><span class="nav-text">5.3 点估计量的评价准则</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-条件概率"><span class="nav-text">1.条件概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-全概率公式"><span class="nav-text">2.全概率公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-事件的划分与完备事件组"><span class="nav-text">2.1 事件的划分与完备事件组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-全概率公式"><span class="nav-text">2.2 全概率公式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-贝叶斯公式"><span class="nav-text">3.贝叶斯公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-贝叶斯公式"><span class="nav-text">3.1 贝叶斯公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-先验概率与后验概率"><span class="nav-text">3.2 先验概率与后验概率</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-事件的独立性"><span class="nav-text">4. 事件的独立性</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-事件的独立性"><span class="nav-text">4.1 事件的独立性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-伯努利-Bernoulli-概型"><span class="nav-text">4.2 伯努利(Bernoulli)概型</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-参数估计之点估计"><span class="nav-text">5. 参数估计之点估计</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-矩估计法"><span class="nav-text">5.1 矩估计法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-最大似然估计法"><span class="nav-text">5.2 最大似然估计法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

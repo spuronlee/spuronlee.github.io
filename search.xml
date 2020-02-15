@@ -107,11 +107,6 @@
 <p>“一个伯努利试验独立地做$n$次”的含义是，每次试验的$P(A)=p$保持不变，且各次试验相互独立．</p>
 <h2 id="5-参数估计之点估计"><a href="#5-参数估计之点估计" class="headerlink" title="5. 参数估计之点估计"></a>5. 参数估计之点估计</h2><p>在研究总体时，经常会面对这样的问题：总体的分布已知，但分布中有未知参数，而为了研究总体，需要知道这些参数．研究如何用样本所提供的信息来估计未知参数（也说未知参数的真值），即是参数估计问题．参数估计有两种基本形式：点估计和区间估计.</p>
 <p>利用样本统计量及其观测值，给出总体$X$的分布中(一个或多个)未知参数的估计即为点估计． </p>
-<p><img src="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg" alt="公式背景图"></p>
-<div align=center>
-  <img width=50% src="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg" >
-</div>
-
 <div align=center>
 <img src="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001gailvlun_%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.jpg" width="50%">
 </div>

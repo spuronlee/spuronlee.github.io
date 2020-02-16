@@ -56,9 +56,8 @@
     <url>/2018/10/15/Convex-Optimization/</url>
     <content><![CDATA[<meta name="referrer" content="no-referrer"/>
 
-<p>凸优化。</p>
-<a id="more"></a>
-<script type="math/tex; mode=display">P(B|A)=\frac{P(AB)}{P(A)}</script>]]></content>
+<p>凸优化相关知识。</p>
+<a id="more"></a>]]></content>
       <tags>
         <tag>math</tag>
       </tags>
@@ -66,9 +65,11 @@
   <entry>
     <title>Linear Algebra</title>
     <url>/2018/10/09/Linear-Algebra/</url>
-    <content><![CDATA[<p>线性代数123</p>
-<hr>
-]]></content>
+    <content><![CDATA[<meta name="referrer" content="no-referrer"/>
+
+<p>线性代数基础知识。</p>
+<a id="more"></a>
+<h2 id="1-向量"><a href="#1-向量" class="headerlink" title="1. 向量"></a>1. 向量</h2><h2 id="2-矩阵"><a href="#2-矩阵" class="headerlink" title="2. 矩阵"></a>2. 矩阵</h2>]]></content>
       <tags>
         <tag>math</tag>
       </tags>
@@ -119,7 +120,8 @@
             <p>先来看一个例子:设某一事件$A$在一次试验中发生的概率为$p$，而且事件$A$在连续两次的独立试验中都发生了.假如$p$只可以取$0.6$与$0.9$中的一个，人们则通常会认为$p$应该取$0.9$．这是因为基于这样一个简单又公认的事实：$0.6^2 &lt; 0.9^2$． </p>
           </div>
 <p>这个例子所体现的正是最大似然估计方法的基本思想，而这个思想基于<strong>小概率原理</strong>：</p>
-<p><font color="#FF0000">(1)概率很小的事件在一次试验中几乎是不出现的; <br><br>(2)概率很小的事件在次数很多的重复试验中几乎是一定会出现的.</font><br>   </p>
+<p><font color="#FF0000">(1)概率很小的事件在一次试验中几乎是不出现的;</font>  </p>
+<p><font color="#FF0000">(2)概率很小的事件在次数很多的重复试验中几乎是一定会出现的.</font><br></p>
 <p>已知总体的分布为$f(x; \theta)$，其中$\theta$为未知参数，$X_{1},X_{2},…,X_{n}$是总体的一个样本，$x_{1},x_{2},…,x_{n}$是样本观测值.把样本值$x_{1},x_{2},…,x_{n}$出现的概率称为样本似然函数，记作$L(\theta)$，使$L(\theta)$达到最大值的$\theta$的取值$\hat{\theta}$称为 $\theta $的最大似然估计值．$\hat{\theta}$一般是$x_{1},x_{2},…,x_{n}$的函数，记为$\hat{\theta} = \hat{\theta}(x_{1},x_{2},…,x_{n})$.</p>
 <script type="math/tex; mode=display">L(\theta)= \prod_{i=1}^n f(x_{i}; \theta)</script><div align=center>
 <img src="https://hexo-images-1259709431.cos.ap-shanghai.myqcloud.com/images/20181001%20gailvlun2.jpg">
